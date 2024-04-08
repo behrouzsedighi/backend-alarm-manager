@@ -1,0 +1,14 @@
+{
+  "NOT_EMPTY": "{property} cannot be empty",
+  "INVALID_EMAIL": "email is invalid",
+  "INVALID_BOOLEAN": "{property} is not a boolean",
+  "MIN": "{property} with value: \"{value}\" needs to be at least {constraints.0}, ow and {message}",
+  "MAX": "{property} with value: \"{value}\" needs to be less than {constraints.0}, ow and {message}",
+  "duplicate_product":"There is a product",
+  "duplicate_category":"There is a category",
+  "duplicate_partition":"There is a partition",
+  "create_product":"The product was successfully created",
+  "create_category":"The category was successfully created",
+  "create_partition":"The partition was successfully created",
+  "update_product":"The partition was successfully updated"
+}
