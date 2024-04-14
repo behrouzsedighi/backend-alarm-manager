@@ -12,4 +12,12 @@ export class LoggerService {
     async create(device_id: string, text: string) {
         await this.loggerModel.create({ device_id, text })
     }
+
+
+    async list() {
+        return await this.loggerModel.find()
+    }
+
+
+
 }
